@@ -21,5 +21,4 @@
 ### Aho-Corasick
 | Question                                  | Other Related Tags         |    Supplementary Techniques   |  Status   |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
-| [3292. Minimum Number of Valid Strings to Form Target II](https://leetcode.com/problems/minimum-number-of-valid-strings-to-form-target-ii/description/)  | `Greedy`    | [Interval covering greedy](#interval-covering)  |
-Review Needed |
+| [3292. Minimum Number of Valid Strings to Form Target II](https://leetcode.com/problems/minimum-number-of-valid-strings-to-form-target-ii/description/)  | `Greedy`    | [Interval covering greedy](#interval-covering) |Review Needed |
