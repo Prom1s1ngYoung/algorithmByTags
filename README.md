@@ -8,7 +8,7 @@
 ### Segment Tree
 | Question                                  | Other Related Tags         |    Supplementary Techniques   |  Status   |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
-| []()  | `Hash Table` `Offline + Enumeration`    |  The way of using Hash Table is similar to two pointers |  null |
+| []()  | `Hash Table` `Offline + Enumeration`    |  The way of using Hash Table is similar to "two sum" |  null |
 
 <br><br>
 ## Greedy Algorithm
