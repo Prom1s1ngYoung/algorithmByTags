@@ -8,7 +8,7 @@
 ### Segment Tree
 | Question                                  | Other Related Tags         |    Supplementary Techniques   |  Status   |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
-| []()  | `Hash Table` `Offline + Enumeration`    |  The way of using Hash Table is similar to "two sum" |  null |
+| [3382. Maximum Area Rectangle With Point Constraints II](https://leetcode.com/problems/maximum-area-rectangle-with-point-constraints-ii/description/)  | `Hash Table` `Offline + Enumeration`    |  The way of using Hash Table is similar to "two sum" |  Advanced |
 
 <br><br>
 ## Greedy Algorithm
@@ -16,7 +16,7 @@
 #### Interval Covering
 | Question                                  | Other Related Tags         |    Supplementary Techniques   |  Status   |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
-| [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/description/)  | `null`    |  null |  Review Needed |
+| [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/description/)  | `null`    |  null |  Tricky but Easy |
 
 <br><br>
 ## String
