@@ -1,8 +1,16 @@
 # Algorithm By Tags
+## Dynamic Programming
+### State Machine DP
+| Question                                  | Other Related Tags         |    Supplementary Techniques   |  Difficulty  |
+|-------------------------------------------|----------------------------|-------------------------------|-----------|
+| [3389. Minimum Operations to Make Character Frequencies Equal](https://leetcode.com/problems/minimum-operations-to-make-character-frequencies-equal/description/)  | `Enumeration` |  1. Not hard to think that the outer iteration is to enumerate the occurrence of a character. But what should it do in the inner?<br><br> 2. DP is a good way to solve, but defining states is tricky here. Try to find how to from specific to general. |⭐️⭐️⭐️⭐️⭐️|
+
+<br><br>
 ## Data Structure
 ### Hash Table
 | Question                                  | Other Related Tags         |    Supplementary Techniques   |  Difficulty  |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
+
 
 <br><br>
 ### Segment Tree
