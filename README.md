@@ -3,7 +3,7 @@
 ### Maximize the minimum/Minimize the maximum
 | Question                                  | Other Related Tags         |    Supplementary Techniques   |  Difficulty |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
-| [3399. Smallest Substring With Identical Characters II]([https://leetcode.com/problems/jump-game-ii/description/](https://leetcode.com/problems/smallest-substring-with-identical-characters-ii/description/))  | `Special Case Optimization`    | By considering the "01010101...01" and "101010...10" such patterns separately. |⭐️⭐️⭐️⭐️|
+| [3399. Smallest Substring With Identical Characters II](https://leetcode.com/problems/smallest-substring-with-identical-characters-ii/description/)  | `Special Case Optimization`    | By considering the "01010101...01" and "101010...10" such patterns separately. |⭐️⭐️⭐️⭐️|
 
 <br><br>
 ## Dynamic Programming
@@ -31,7 +31,7 @@
 ### Permutation
 | Question                                  | Other Related Tags         |    Supplementary Techniques   |  Difficulty |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
-| [3395. Subsequences with a Unique Middle Mode I](https://leetcode.com/problems/subsequences-with-a-unique-middle-mode-i/description/)  | `null`    |  null |⭐️⭐️⭐️⭐️⭐️|
+| [3395. Subsequences with a Unique Middle Mode I](https://leetcode.com/problems/subsequences-with-a-unique-middle-mode-i/description/)  | `Prefix`, `Suffix` |  Since the wanted subsequences should meet a length of 5, it is not a big task for us to do the classification. So let's start with iterating the mid element, and assume the mid element's value is 'x': <br><br> 1. Find two elements on the left and two elements on the right that are not equal to 'x'. <br> 2. Find two elements with value 'y' on the left, find another 'x' on the right. <br> 3. Find two elements with value 'y' on the right, find another 'x' on the left. <br>  4. Find one 'y' and one 'x' on the left, and one 'y' on the right. <br>  5. Find one 'y' on the left, find one 'y' and one 'x' on the right. <br><br> Above cases don't satisfy the request, we can calculate the total number of subsequences of size 5 and then minus the above results to get the answer.|⭐️⭐️⭐️⭐️⭐️|
 
 <br><br>
 ## Greedy Algorithm
