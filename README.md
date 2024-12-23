@@ -10,7 +10,7 @@
 ### State Machine DP
 | Question                                  | Other Related Tags         |    Supplementary Techniques   |  Difficulty  |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
-| [3389. Minimum Operations to Make Character Frequencies Equal](https://leetcode.com/problems/minimum-operations-to-make-character-frequencies-equal/description/)  | `Enumeration` |  1. Not hard to think that the outer iteration is to enumerate the occurrence of a character. But what should it do in the inner?<br><br> 2. DP is a good way to solve, but defining states is tricky here. Try to find how to from specific to general. |⭐️⭐️⭐️⭐️⭐️|
+| [3389. Minimum Operations to Make Character Frequencies Equal](https://leetcode.com/problems/minimum-operations-to-make-character-frequencies-equal/description/)  | `Enumeration` |  1. Not hard to think that the outer iteration is to enumerate the occurrence of a character. But what should it do in the inner? <br> 2. DP is a good way to solve, but defining states is tricky here. Try to find how to from specific to general. |⭐️⭐️⭐️⭐️⭐️|
 
 <br><br>
 ## Data Structure
@@ -24,7 +24,7 @@
 | Question                                  | Other Related Tags         |    Supplementary Techniques   | Difficulty  |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
 | [3382. Maximum Area Rectangle With Point Constraints II](https://leetcode.com/problems/maximum-area-rectangle-with-point-constraints-ii/description/)  | `Hash Table`, `Offline + Enumeration`, `Static 2D Points`    |  The way of using Hash Table is similar to "two sum" |  ⭐️⭐️⭐️⭐️⭐️ |
-| [G. Unusual Entertainment](https://codeforces.com/problemset/problem/1899/G)  | `DFS Order`, `Offline + Differ`, `Static 2D Points` | 1. Using DFS order to quickly check if one node is the child of one tree. <br><br>2. Organizing in advance which query operations should be executed for each index position serves as a “bridge” between offline processing and the concept of difference-based methods. |⭐️⭐️⭐️⭐️⭐️⭐️|
+| [G. Unusual Entertainment](https://codeforces.com/problemset/problem/1899/G)  | `DFS Order`, `Offline + Differ`, `Static 2D Points` | 1. Using DFS order to quickly check if one node is the child of one tree. <br> 2. Organizing in advance which query operations should be executed for each index position serves as a “bridge” between offline processing and the concept of difference-based methods. |⭐️⭐️⭐️⭐️⭐️⭐️|
 
 <br><br>
 ## Math
