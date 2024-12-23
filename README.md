@@ -1,4 +1,11 @@
 # Algorithm By Tags
+## Binary Search
+### Maximize the minimum/Minimize the maximum
+| Question                                  | Other Related Tags         |    Supplementary Techniques   |  Difficulty |
+|-------------------------------------------|----------------------------|-------------------------------|-----------|
+| [3399. Smallest Substring With Identical Characters II]([https://leetcode.com/problems/jump-game-ii/description/](https://leetcode.com/problems/smallest-substring-with-identical-characters-ii/description/))  | `Special Case Optimization`    | By considering the "01010101...01" and "101010...10" such patterns separately. |⭐️⭐️⭐️⭐️|
+
+<br><br>
 ## Dynamic Programming
 ### State Machine DP
 | Question                                  | Other Related Tags         |    Supplementary Techniques   |  Difficulty  |
@@ -18,6 +25,13 @@
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
 | [3382. Maximum Area Rectangle With Point Constraints II](https://leetcode.com/problems/maximum-area-rectangle-with-point-constraints-ii/description/)  | `Hash Table`, `Offline + Enumeration`, `Static 2D Points`    |  The way of using Hash Table is similar to "two sum" |  ⭐️⭐️⭐️⭐️⭐️ |
 | [G. Unusual Entertainment](https://codeforces.com/problemset/problem/1899/G)  | `DFS Order`, `Offline + Differ`, `Static 2D Points` | 1. Using DFS order to quickly check if one node is the child of one tree. <br><br>2. Organizing in advance which query operations should be executed for each index position serves as a “bridge” between offline processing and the concept of difference-based methods. |⭐️⭐️⭐️⭐️⭐️⭐️|
+
+<br><br>
+## Math
+### Permutation
+| Question                                  | Other Related Tags         |    Supplementary Techniques   |  Difficulty |
+|-------------------------------------------|----------------------------|-------------------------------|-----------|
+| [3395. Subsequences with a Unique Middle Mode I](https://leetcode.com/problems/subsequences-with-a-unique-middle-mode-i/description/)  | `null`    |  null |⭐️⭐️⭐️⭐️⭐️|
 
 <br><br>
 ## Greedy Algorithm
