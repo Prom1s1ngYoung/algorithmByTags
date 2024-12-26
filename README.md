@@ -7,6 +7,12 @@
 
 <br><br>
 ## Dynamic Programming
+### Grid
+| Question                                  | Other Related Tags         |    Supplementary   |  Difficulty  |
+|-------------------------------------------|----------------------------|-------------------------------|-----------|
+| [3363. Find the Maximum Number of Fruits Collected](https://leetcode.com/problems/find-the-maximum-number-of-fruits-collected/description/)  | `Brain Teaser` | The first time you read the question, there seem to be three options. But after reading carefully, the children start at (0,0) have only one path to reach the end. So we only need to consider the other two and they are separated questions. |⭐️⭐️⭐️⭐️|
+
+<br><br>
 ### Knapsack Problem
 #### Multiple Knapsack Problem
 | Question                                  | Other Related Tags         |    Supplementary   |  Difficulty |
