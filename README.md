@@ -26,6 +26,14 @@
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
 | [3389. Minimum Operations to Make Character Frequencies Equal](https://leetcode.com/problems/minimum-operations-to-make-character-frequencies-equal/description/)  | `Enumeration` |  1. Not hard to think that the outer iteration is to enumerate the occurrence of a character. But what should it do in the inner? <br> 2. DP is a good way to solve, but defining states is tricky here. Try to find how to from specific to general. |⭐️⭐️⭐️⭐️⭐️|
 
+
+<br><br>
+### Digit DP
+| Question                                  | Other Related Tags         |    Supplementary   |  Difficulty  |
+|-------------------------------------------|----------------------------|-------------------------------|-----------|
+| [3348. Smallest Divisible Digit Product II](https://leetcode.com/problems/smallest-divisible-digit-product-ii/description/)  | `Math` | Digit DP is not used to solve this question. However, the intuition is extended from Digit DP. <br> 1. Decomposition into Prime Factors. Assume there are $k$ number of such factors, and the string $num$ has length $n$. So firstly compare $k$ and $n$ to add pre $0$ to the $num$. Why do we need pre $0$, try to think of $num=999$ and $t=2$ such example. <br> 2. Up to here, you should be familiar with $isLimit$, if you don't, please learn the digit DP template. Do classification: <br>  2.1 Still have limits, but the current step is inside the pre $0$, possible to pick up from $0$ to $9$. <br>  2.2 Still have limits, but the current step is outside the pre $0$, the lower should be greater than $0$. <br>  2.3 No limits, you can pick up from $1$ to $9$. <br> 3. Add $visited$ to check if the 'node' has already be visited, there are two states, $memo[i][j]$ means by formatting the elements start from $i$ to end, is it possible to get a product that is divisible by $j$ <br> That's all the intuition you need, maybe considered the rest with code would be better. |⭐️⭐️⭐️⭐️⭐️⭐️⭐️|
+
+
 <br><br>
 ## Data Structure
 ### Hash Table
