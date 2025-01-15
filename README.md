@@ -22,7 +22,7 @@
 ### Monotonous Stack
 | Question                                  | Other Related Tags         |    Supplementary   |  Difficulty |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
-| [1944. Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue/description/)  |  | A guy can see the people on his right, these people's height should be in increasing order and less than the guy's height. Therefore, by iterating the array from right to left, and using a monotonous stack to maintain the increasing rule, the popped elements are the people that the current guy can see.  |⭐️⭐️⭐️⭐️|
+| [1944. Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue/description/)  | `null` | A guy can see the people on his right, these people's height should be in increasing order and less than the guy's height. Therefore, by iterating the array from right to left, and using a monotonous stack to maintain the increasing rule, the popped elements are the people that the current guy can see.  |⭐️⭐️⭐️⭐️|
 
 
 <br><br>
@@ -45,6 +45,7 @@
 | Question                                  | Other Related Tags         |    Supplementary   |  Difficulty  |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
 | [3389. Minimum Operations to Make Character Frequencies Equal](https://leetcode.com/problems/minimum-operations-to-make-character-frequencies-equal/description/)  | `Enumeration` |  1. Not hard to think that the outer iteration is to enumerate the occurrence of a character. But what should it do in the inner? <br> 2. DP is a good way to solve, but defining states is tricky here. Try to find out how to go from specific to general. |⭐️⭐️⭐️⭐️⭐️|
+| [3320. Count The Number of Winning Sequences](https://leetcode.com/problems/count-the-number-of-winning-sequences/description/)  | `null` | Define $memo[i][j][k]$ as a start from $i$th character, the current award balance is $j$ and pre-summon is $k$, the number of distinct sequences Bob can use to beat Alice. |⭐️⭐️⭐️⭐️⭐️|
 
 
 <br><br>
