@@ -90,7 +90,7 @@
 
 <br><br>
 ### Z Algorithm
-Great technique to understand Z - [Z Algorithm demo](https://personal.utdallas.edu/~besp/demo/John2010/z-algorithm.htm)
+A great technique to understand Z - [Z Algorithm demo](https://personal.utdallas.edu/~besp/demo/John2010/z-algorithm.htm)
 | Question                                  | Other Related Tags         |    Supplementary   | Difficulty  |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
 | [1668. Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/description/)  | `DP`    | Z + DP  |⭐️⭐️⭐️|
@@ -102,3 +102,8 @@ Great technique to understand Z - [Z Algorithm demo](https://personal.utdallas.e
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
 | [3292. Minimum Number of Valid Strings to Form Target II](https://leetcode.com/problems/minimum-number-of-valid-strings-to-form-target-ii/description/)  | `Greedy`    | [Interval covering greedy](#interval-covering) |⭐️⭐️⭐️⭐️|
 
+<br><br>
+### String Hash
+| Question                                  | Other Related Tags         |    Supplementary Techniques   | Difficulty |
+|-------------------------------------------|----------------------------|-------------------------------|-----------|
+| [3327. Check if DFS Strings Are Palindromes](https://leetcode.com/problems/check-if-dfs-strings-are-palindromes/description/)  | `DFS` | The Main idea is to find an efficient way to check if two strings are equal, so string hash is needed. Try to calculate the pre-order formatted string's hash and the post-order formatted string's hash.  |⭐️⭐️⭐️⭐️⭐️|
