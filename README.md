@@ -18,6 +18,14 @@
 
 
 <br><br>
+## Monotonous Stack/Monotonous Queue
+### Monotonous Stack
+| Question                                  | Other Related Tags         |    Supplementary   |  Difficulty |
+|-------------------------------------------|----------------------------|-------------------------------|-----------|
+| [1944. Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue/description/)  |  | A guy can see the people on his right, these people's height should be in increasing order and less than the guy's height. Therefore, by iterating the array from right to left, and using a monotonous stack to maintain the increasing rule, the popped elements are the people that the current guy can see.  |⭐️⭐️⭐️⭐️|
+
+
+<br><br>
 ## Dynamic Programming
 ### Grid
 | Question                                  | Other Related Tags         |    Supplementary   |  Difficulty  |
