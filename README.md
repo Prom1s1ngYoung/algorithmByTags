@@ -69,6 +69,13 @@
 
 <br><br>
 ## Math
+### Modular Multiplicative Inverse
+| Question                                  | Other Related Tags         |    Supplementary   | Difficulty  |
+|-------------------------------------------|----------------------------|-------------------------------|-----------|
+| [3428. Maximum and Minimum Sums of at Most Size K Subsequences](https://leetcode.com/problems/maximum-and-minimum-sums-of-at-most-size-k-subsequences/description/)  | `Combinatrics` `Quick Pow`    | A template question using modular multiplicative inverse. Know more from [here](https://leetcode.cn/circle/discuss/mDfnkW/) |  ⭐️⭐️⭐️⭐️⭐️ |
+
+
+<br><br>
 ### Permutation
 | Question                                  | Other Related Tags         |    Supplementary   |  Difficulty |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
