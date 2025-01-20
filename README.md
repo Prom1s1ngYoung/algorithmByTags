@@ -49,6 +49,13 @@
 
 
 <br><br>
+### Multi-dimensional DP
+| Question                                  | Other Related Tags         |    Supplementary   |  Difficulty  |
+|-------------------------------------------|----------------------------|-------------------------------|-----------|
+| [3429. Paint House IV](https://leetcode.com/problems/paint-house-iv/description/)  | `null` | Three dimensional, if we currently decide to paint the colour of the $i$th house, the $n-i+1$th house should also be chosen to paint, so two other states are the left previous painted colour and the right previous painted colour. |⭐️⭐️⭐️⭐️|
+
+
+<br><br>
 ### Digit DP
 | Question                                  | Other Related Tags         |    Supplementary   |  Difficulty  |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
