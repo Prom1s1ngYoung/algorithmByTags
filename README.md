@@ -23,6 +23,7 @@
 | Question                                  | Other Related Tags         |    Supplementary   |  Difficulty |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
 | [1944. Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue/description/)  | `null` | A guy can see the people on his right, these people's height should be in increasing order and less than the guy's height. Therefore, by iterating the array from right to left, and using a monotonous stack to maintain the increasing rule, the popped elements are the people that the current guy can see.  |⭐️⭐️⭐️⭐️|
+| [907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/description/)  | `Contribution Method` `Combinatorics` | Iterating the array, assume currently iterate to $x$, try to find the index of the first element that is smaller than current and define it as $i$, also find the index of the first element that is smaller or equal to current and define it as $j$. The minimum value in range $[i + 1, j - 1]$ should be $nums[x]$. <br> But how to find it? Usually using a monotonous stack is a good way. Since we are looking for the minimums, so try to maintain an increasing order in a monotonous stack. <br> After done that, calculate the combinations with **Multiplicative Principle** - $(x - i) * (j - x)$. |⭐️⭐️⭐️⭐️|
 
 
 <br><br>
@@ -83,7 +84,7 @@
 
 
 <br><br>
-### Permutation
+### Combinatorics
 | Question                                  | Other Related Tags         |    Supplementary   |  Difficulty |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
 | [3395. Subsequences with a Unique Middle Mode I](https://leetcode.com/problems/subsequences-with-a-unique-middle-mode-i/description/)  | `Prefix`, `Suffix` |  Since the wanted subsequences should meet a length of 5, it is not a big task for us to do the classification. So let's start with iterating the mid element, and assume the mid element's value is 'x': <br><br> 1. Find two elements on the left and two elements on the right that are not equal to 'x'. <br> 2. Find two elements with value 'y' on the left, find another 'x' on the right. <br> 3. Find two elements with value 'y' on the right, find another 'x' on the left. <br>  4. Find one 'y' and one 'x' on the left, and one 'y' on the right. <br>  5. Find one 'y' on the left, find one 'y' and one 'x' on the right. <br><br> Above cases don't satisfy the request, we can calculate the total number of subsequences of size 5 and then minus the above results to get the answer.|⭐️⭐️⭐️⭐️⭐️|
