@@ -65,10 +65,6 @@
 
 <br><br>
 ## Data Structure
-### Hash Table
-
-
-<br><br>
 ### Segment Tree
 | Question                                  | Other Related Tags         |    Supplementary   | Difficulty  |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
@@ -88,6 +84,7 @@
 | Question                                  | Other Related Tags         |    Supplementary   |  Difficulty |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
 | [3395. Subsequences with a Unique Middle Mode I](https://leetcode.com/problems/subsequences-with-a-unique-middle-mode-i/description/)  | `Prefix`, `Suffix` |  Since the wanted subsequences should meet a length of 5, it is not a big task for us to do the classification. So let's start with iterating the mid element, and assume the mid element's value is 'x': <br><br> 1. Find two elements on the left and two elements on the right that are not equal to 'x'. <br> 2. Find two elements with value 'y' on the left, find another 'x' on the right. <br> 3. Find two elements with value 'y' on the right, find another 'x' on the left. <br>  4. Find one 'y' and one 'x' on the left, and one 'y' on the right. <br>  5. Find one 'y' on the left, find one 'y' and one 'x' on the right. <br><br> Above cases don't satisfy the request, we can calculate the total number of subsequences of size 5 and then minus the above results to get the answer.|⭐️⭐️⭐️⭐️⭐️|
+| [3430. Maximum and Minimum Sums of at Most Size K Subarrays](https://leetcode.com/problems/maximum-and-minimum-sums-of-at-most-size-k-subarrays/description/)  | `Monotonous Stack` | Extension of this [question](https://leetcode.com/problems/sum-of-subarray-minimums/description/). After knowing the trick to using monotonous stack, this problem mainly deals with combinatorics, I'm still not clear to explain the combinations, so currently just leave the [description](https://leetcode.cn/problems/maximum-and-minimum-sums-of-at-most-size-k-subarrays/solutions/3051552/gong-xian-fa-dan-diao-zhan-pythonjavacgo-9gz3/) here. |  ⭐️⭐️⭐️⭐️⭐️⭐️ |
 
 <br><br>
 ## Greedy Algorithm
