@@ -65,6 +65,12 @@
 
 <br><br>
 ## Data Structure
+### Dynamic update in a K range
+| Question                                  | Other Related Tags         |    Supplementary   | Difficulty  |
+|-------------------------------------------|----------------------------|-------------------------------|-----------|
+| [3321. Find X-Sum of All K-Long Subarrays II](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-ii/description/)  | `Priority Queue`, `Priority Map`  | A template to main a range of elements inside one data set. |  ⭐️⭐️⭐️⭐️⭐️ |
+
+<br><br>
 ### Segment Tree
 | Question                                  | Other Related Tags         |    Supplementary   | Difficulty  |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
