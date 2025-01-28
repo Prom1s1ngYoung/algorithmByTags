@@ -68,7 +68,8 @@
 ### Dynamic update in a K range
 | Question                                  | Other Related Tags         |    Supplementary   | Difficulty  |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
-| [3321. Find X-Sum of All K-Long Subarrays II](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-ii/description/)  | `Priority Queue`, `Priority Map`  | A template to main a range of elements inside one data set. |  ⭐️⭐️⭐️⭐️⭐️ |
+| [1825. Finding MK Average](https://leetcode.com/problems/finding-mk-average/description/)  | `Priority Queue`  | A template to main a range of elements inside one data set.  |  ⭐️⭐️⭐️⭐️⭐️ |
+| [3321. Find X-Sum of All K-Long Subarrays II](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-ii/description/)  | `Priority Queue`, `Sorted Map`  | To be updated. |  ⭐️⭐️⭐️⭐️⭐️ |
 
 <br><br>
 ### Segment Tree
