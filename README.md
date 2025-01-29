@@ -53,7 +53,7 @@
 ### Linear DP
 | Question                                  | Other Related Tags         |    Supplementary   |  Difficulty  |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
-| [3434. Maximum Frequency After Subarray Operation](https://leetcode.com/problems/maximum-frequency-after-subarray-operation/description/)  | `Enumeration` | By using Kadane algorithm, Kadane algorithm is a kind of Linear DP, I will find a template later to discuss it. Kadane can calculate the maximum subarray sum of a one-dimensional array efficiently, $dp[i] = \max(dp[i-1] + nums[i], nums[i])$. By enumerating the value, since the value's constraints are smaller enough. Try to let as much of the value $i$ become $k$, each value $i$ will contribute to the result, but each value $k$ will consume the contribution. |⭐️⭐️⭐️⭐️|
+| [3434. Maximum Frequency After Subarray Operation](https://leetcode.com/problems/maximum-frequency-after-subarray-operation/description/)  | `Enumeration` | By using Kadane algorithm, Kadane algorithm is a kind of Linear DP, I will find a template later to discuss it. Kadane can calculate the maximum subarray sum of a one-dimensional array efficiently, $dp[i] = \max(dp[i-1] + contribution, nums[i])$. By enumerating the value, since the value's constraints are smaller enough. Try to let as much of the value $i$ become $k$, each value $i$ will contribute to the result, but each value $k$ will consume the contribution. |⭐️⭐️⭐️⭐️|
 
 
 <br><br>
