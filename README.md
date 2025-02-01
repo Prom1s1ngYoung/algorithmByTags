@@ -50,7 +50,7 @@
 | Question                                  | Other Related Tags         |    Supplementary   |  Difficulty  |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
 | [3389. Minimum Operations to Make Character Frequencies Equal](https://leetcode.com/problems/minimum-operations-to-make-character-frequencies-equal/description/)  | `Enumeration` |  1. Not hard to think that the outer iteration is to enumerate the occurrence of a character. But what should it do in the inner? <br> 2. DP is a good way to solve, but defining states is tricky here. Try to find out how to go from specific to general. |⭐️⭐️⭐️⭐️⭐️|
-| [3320. Count The Number of Winning Sequences](https://leetcode.com/problems/count-the-number-of-winning-sequences/description/)  | `null` | Define $memo[i][j][k]$ as a start from $i$th character, the current award balance is $j$ and pre-summon is $k$, the number of distinct sequences Bob can use to beat Alice. |⭐️⭐️⭐️⭐️⭐️|
+| [3320. Count The Number of Winning Sequences](https://leetcode.com/problems/count-the-number-of-winning-sequences/description/)  | `null` | Define $memo[i][j][k]$ as a start from $i$ th character, the current award balance is $j$ and pre-summon is $k$, the number of distinct sequences Bob can use to beat Alice. |⭐️⭐️⭐️⭐️⭐️|
 
 
 <br><br>
@@ -64,7 +64,7 @@
 ### Multi-dimensional DP
 | Question                                  | Other Related Tags         |    Supplementary   |  Difficulty  |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
-| [3429. Paint House IV](https://leetcode.com/problems/paint-house-iv/description/)  | `null` | Three dimensional, if we currently decide to paint the colour of the $i$th house, the $n-i+1$th house should also be chosen to paint, so two other states are the left previous painted colour and the right previous painted colour. |⭐️⭐️⭐️⭐️|
+| [3429. Paint House IV](https://leetcode.com/problems/paint-house-iv/description/)  | `null` | Three dimensional, if we currently decide to paint the colour of the $i$ th house, the $n-i+1$th house should also be chosen to paint, so two other states are the left previous painted colour and the right previous painted colour. |⭐️⭐️⭐️⭐️|
 
 
 <br><br>
