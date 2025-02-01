@@ -25,6 +25,10 @@
 | [1944. Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue/description/)  | `null` | A guy can see the people on his right, these people's height should be in increasing order and less than the guy's height. Therefore, by iterating the array from right to left, and using a monotonous stack to maintain the increasing rule, the popped elements are the people that the current guy can see.  |⭐️⭐️⭐️⭐️|
 | [907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/description/)  | `Contribution Method` `Combinatorics` | Iterating the array, assume currently iterate to $x$, try to find the index of the first element that is smaller than current and define it as $i$, also find the index of the first element that is smaller or equal to current and define it as $j$. The minimum value in range $[i + 1, j - 1]$ should be $nums[x]$. <br> But how to find it? Usually using a monotonous stack is a good way. Since we are looking for the minimums, so try to maintain an increasing order in a monotonous stack. <br> After done that, calculate the combinations with **Multiplicative Principle** - $(x - i) * (j - x)$. |⭐️⭐️⭐️⭐️|
 
+<br><br>
+## Graph
+
+
 
 <br><br>
 ## Dynamic Programming
@@ -135,3 +139,10 @@ A great technique to understand Z - [Z Algorithm demo](https://personal.utdallas
 | Question                                  | Other Related Tags         |    Supplementary Techniques   | Difficulty |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
 | [3327. Check if DFS Strings Are Palindromes](https://leetcode.com/problems/check-if-dfs-strings-are-palindromes/description/)  | `DFS` | The Main idea is to find an efficient way to check if two strings are equal, so string hash is needed. Try to calculate the pre-order formatted string's hash and the post-order formatted string's hash.  |⭐️⭐️⭐️⭐️⭐️|
+
+<br><br>
+## Constructive
+| Question                                  | Other Related Tags         |    Supplementary Techniques   | Difficulty |
+|-------------------------------------------|----------------------------|-------------------------------|-----------|
+| [3435. Frequencies of Shortest Supersequences](https://leetcode.com/problems/frequencies-of-shortest-supersequences/description/)  | `DFS`, `Bit Manipulation`, `Greedy` | 1. Greedy: Treat the sequences as the graph, for example, $["ab", "bc", "cb", "ba"]$ for such example to get the shortest supersequence, you can construct a sequence with a character two times and others just one time in the best situation, like put one of character on the left, and another on the right. <br> 2. Bit Manipulation: Make the $i$th bit $1$ if use it two times, $0$ if use it just one time. <br> 3. DFS: Used to check if the graph has a cycle, if there is a cycle, one of the characters inside the cycle must appear two times.  |⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️|
+
