@@ -112,6 +112,11 @@
 
 <br><br>
 ## Greedy Algorithm
+### Keep the first K maximum/minimum
+| Question                                  | Other Related Tags         |    Supplementary   |  Difficulty |
+|-------------------------------------------|----------------------------|-------------------------------|-----------|
+| [3440. Reschedule Meetings for Maximum Free Time II](https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-ii/description/)  | `Enumeration`    |  Maintain the three largest empty spaces, ensuring that at least one of them is not adjacent to the meeting. Move the meeting to this empty space. Then enumerate each meeting, and try to move it to other places. |⭐️⭐️⭐️⭐️|
+
 ### Interval Greedy
 #### Interval Covering
 | Question                                  | Other Related Tags         |    Supplementary   |  Difficulty |
