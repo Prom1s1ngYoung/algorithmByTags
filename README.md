@@ -78,6 +78,12 @@
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
 | [3348. Smallest Divisible Digit Product II](https://leetcode.com/problems/smallest-divisible-digit-product-ii/description/)  | `Math` | Digit DP is not used to solve this question. However, the intuition is extended from Digit DP. <br> 1. Decomposition into Prime Factors. Assume there is $k$ number of such factors, and the string $num$ has length $n$. So firstly compare $k$ and $n$ to add pre $0$ to the $num$. Why do we need pre $0$, try to think of $num=999$ and $t=2$ such example. <br> 2. Up to here, you should be familiar with $isLimit$, if you don't, please learn the digit DP template. Do classification: <br>  2.1 Still have limits, but the current step is inside the pre $0$, possible to pick up from $0$ to $9$. <br>  2.2 Still have limits, but the current step is outside the pre $0$, the lower should be greater than $0$. <br>  2.3 No limits, you can pick up from $1$ to $9$. <br> 3. Add $visited$ to check if the 'node' has already been visited, there are two states, $memo[i][j]$ means by formatting the elements start from $i$ to end, is it possible to get a product that is divisible by $j$ <br> That's all the intuition you need, maybe considered the rest with code would be better. |⭐️⭐️⭐️⭐️⭐️⭐️⭐️|
 
+<br><br>
+### Output Tracking
+| Question                                  | Other Related Tags         |    Supplementary   |  Difficulty  |
+|-------------------------------------------|----------------------------|-------------------------------|-----------|
+| [3441. Minimum Cost Good Caption](https://leetcode.com/problems/minimum-cost-good-caption/description/)  | `Math` | Define $f[i][j]$ as the minimum cost let substring from $i$ to end become good when choosing $j$ at $i$. There are two options: <br> 1. Still choose the same character from the previous one, $f[i][j] = f[i + 1][j] + \lvert s[j] - j \lvert$ <br> 2. Choose a different character from the previous one, and do not break the rule that it should have at least 3 consecutive characters. So $f[i][j] = \min_{k=0}^{25} f[i + 3][k] + \lvert s[j] - j \lvert + \lvert s[j + 1] - j \lvert + \lvert s[j + 2] - j \lvert$. Such an option can only chosen when $i <= n - 6$, $n$ is the length of the string, cause you should leave enough positions for constructing a consecutive sub caption.   |⭐️⭐️⭐️⭐️⭐️⭐️|
+
 
 <br><br>
 ## Data Structure
