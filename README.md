@@ -146,19 +146,20 @@ A great technique to understand Z - [Z Algorithm demo](https://personal.utdallas
 
 <br><br>
 ### Aho-Corasick
-| Question                                  | Other Related Tags         |    Supplementary Techniques   | Difficulty |
+| Question                                  | Other Related Tags         |    Supplementary   | Difficulty |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
 | [3292. Minimum Number of Valid Strings to Form Target II](https://leetcode.com/problems/minimum-number-of-valid-strings-to-form-target-ii/description/)  | `Greedy`    | [Interval covering greedy](#interval-covering) |⭐️⭐️⭐️⭐️|
 
 <br><br>
 ### String Hash
-| Question                                  | Other Related Tags         |    Supplementary Techniques   | Difficulty |
+| Question                                  | Other Related Tags         |    Supplementary   | Difficulty |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
 | [3327. Check if DFS Strings Are Palindromes](https://leetcode.com/problems/check-if-dfs-strings-are-palindromes/description/)  | `DFS` | The Main idea is to find an efficient way to check if two strings are equal, so string hash is needed. Try to calculate the pre-order formatted string's hash and the post-order formatted string's hash.  |⭐️⭐️⭐️⭐️⭐️|
 
 <br><br>
 ## Constructive
-| Question                                  | Other Related Tags         |    Supplementary Techniques   | Difficulty |
+| Question                                  | Other Related Tags         |    Supplementary   | Difficulty |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
 | [3435. Frequencies of Shortest Supersequences](https://leetcode.com/problems/frequencies-of-shortest-supersequences/description/)  | `DFS`, `Bit Manipulation`, `Greedy` | 1. Greedy: Treat the sequences as the graph, for example, $["ab", "bc", "cb", "ba"]$ for such example to get the shortest supersequence, you can construct a sequence with a character two times and others just one time in the best situation, like put one of character on the left, and another on the right. <br> 2. Bit Manipulation: Make the $i$ th bit $1$ if use it two times, $0$ if use it just one time. <br> 3. DFS: Used to check if the graph has a cycle, if there is a cycle, one of the characters inside the cycle must appear two times.  |⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️|
+| [3311. Construct 2D Grid Matching Graph Layout](https://leetcode.com/problems/construct-2d-grid-matching-graph-layout/description/)  | `DFS` | 1. If there is a 2D grid, there are 4 vertices only connected to 2 neighbours, which are placed at the corners. And for vertices on the boundary rather than the corners, these vertices have 3 neighbours. There could also be another kind of vertices on the grid's inner part, they should have 4 neighbours. <br> 2. Are there any special cases? Yes, if the 2D grid only has one row, which becomes a 1D grid, then there are two vertices that only have 1 neighbour and others have 2 neighbours. <br> 3. If it is a 2D grid, find one of the boundaries as the first row of the grid. How exactly get such information? By iterating the whole vertices, until you find one vertice has 2 neighbours, and do layer DFS until find another vertice that has 2 neighbours. After constructing the first row, what about the second row? For the first vertices in the second row, it is actually finding the vertex which hasn't been visited and also is the neighbour of the first vertice in the previous row. For the rest of the vertices, we can check each vertex's left vertex and top vertex, by tracking two vertices' common neighbours to determine it. Implement such a way to construct the rest of the row. <br> 4. If it is a 1D grid, we can just do one DFS for one of the corners vertex to construct it. |⭐️⭐️⭐️⭐️⭐️⭐️⭐️|
 
