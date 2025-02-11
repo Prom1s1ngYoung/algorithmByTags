@@ -65,6 +65,7 @@
 | Question                                  | Other Related Tags         |    Supplementary   |  Difficulty  |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
 | [3429. Paint House IV](https://leetcode.com/problems/paint-house-iv/description/)  | `null` | Three dimensional, if we currently decide to paint the colour of the $i$ th house, the $n-i+1$th house should also be chosen to paint, so two other states are the left previous painted colour and the right previous painted colour. |⭐️⭐️⭐️⭐️|
+| [3448. Count Substrings Divisible By Last Digit](https://leetcode.com/problems/count-substrings-divisible-by-last-digit/description/)  | `null` | There are at most 9 divisors from $1$ to $9$, cause this question only considering the last digit. <br> Also considering adding one digit to the last, what does the previous module result remainder become? If $a % b = c$, after adding $x$, it becomes $(10c + x) % b$, we can treat the remainder as one of our states because it is smaller enough and also use it to construct the state transition equation. <br> Therefore, $f[i][j][k]$ denotes the number of substrings formed from the first $i$ characters of the string that yield a remainder of $k$ when taken modulo $j$. The transition formula is $f[i + 1][j][(10 \times k + s[i + 1]) % j] += f[i][j][k]$. <br> Since the last digit should not be zero, don't do summation if the last digit is zero. |⭐️⭐️⭐️⭐️⭐️⭐️|
 
 <br><br>
 ### State Compression DP
