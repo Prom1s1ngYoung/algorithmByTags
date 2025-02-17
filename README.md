@@ -134,6 +134,11 @@
 | [3440. Reschedule Meetings for Maximum Free Time II](https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-ii/description/)  | `Enumeration`    |  Maintain the three largest empty spaces, ensuring that at least one of them is not adjacent to the meeting. Move the meeting to this empty space. Then enumerate each meeting, and try to move it to other places. |⭐️⭐️⭐️⭐️|
 
 ### Interval Greedy
+#### Non-overlapping intervals
+| Question                                  | Other Related Tags         |    Supplementary   |  Difficulty |
+|-------------------------------------------|----------------------------|-------------------------------|-----------|
+| [3458. Select K Disjoint Special Substrings](https://leetcode.com/problems/select-k-disjoint-special-substrings/description/)  | `null`   | Find if it is possible to select $k$ disjoint special substrings is equivalent to check if there are at least $k$ disjoint special substrings. Therefore, we can try to get the maximum number of disjoint special substrings, if the maximum is greater or equal to $k$, then it is possible. Using greedy thought to sort the intervals by their right boundary and find the total number of non-overlapping intervals is the maximum. <br> For now, the question becomes how to construct the intervals, we can iterate each character $c$, and find the shortest special substring contains character $c$, and then we find the interval for such character. |⭐️⭐️⭐️⭐️|
+
 #### Interval Covering
 | Question                                  | Other Related Tags         |    Supplementary   |  Difficulty |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
