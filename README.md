@@ -12,6 +12,7 @@
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
 | [3399. Smallest Substring With Identical Characters II](https://leetcode.com/problems/smallest-substring-with-identical-characters-ii/description/)  | `Special Case Optimization`    | By considering the "01010101...01" and "101010...10" such patterns separately. |⭐️⭐️⭐️⭐️|
 | [3419. Minimize the Maximum Edge Weight of Graph](https://leetcode.com/problems/minimize-the-maximum-edge-weight-of-graph/description/)  | `DFS` | Define upper edge weight is $x$, the greater the $x$, the more possibility to visit all the nodes from node zero. So we can use binary search to find the minimum of the maximum edge weight. For each iteration inside the binary search, create the graph, then use DFS to check if all nodes can be visited.  |⭐️⭐️⭐️⭐|
+| [3449. Maximize the Minimum Game Score](https://leetcode.com/problems/maximize-the-minimum-game-score/description/)  | `Greedy` | We can assume that $x$ is the minimum value in gamer score, if there are remaining move operations left after getting the minimum value $x$, then a higher minimum value could be got after using these remaining move operations. Therefore, binary search can be utilized. <br> But how to design the check function? Greedy thought should be considered here, how to let each element satisfy the condition with the fewest moves. Since the target minimum value $x$ has been defined already, we can iterate the array and let each element become $x$ (Pass if already greater than or equal to $x$). The best way is to consider the pairs inside the array, for example, the pointer currently moves to $i$, and also consider the element at $i+1$, moves the pointer between $i$ and $i+1$ until $i$ th element's value reaches $x$, and then consider pair ${i+1, i+2}$ until the end. |⭐️⭐️⭐️⭐⭐|
 
 <br><br>
 ### Maximum/Minimum
@@ -74,6 +75,7 @@
 | Question                                  | Other Related Tags         |    Supplementary   |  Difficulty  |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
 | [3444. Minimum Increments for Target Multiples in an Array](https://leetcode.com/problems/minimum-increments-for-target-multiples-in-an-array/description/)  | `Math` | There are at most only 4 elements inside $target$ array, state compression could be used to solve this problem. By iterating the $nums$ array, for $nums[i]$, consider implementing $n$ times of incrementation for it to become a multiple of some elements inside $target$(Not just one element, it could be multiple). And use a binary bit set to represent the usage condition of $i$ th element in $target$. If already considered the $i$ th element, then set the $i$ th bit from $0$ to $1$. And then follow the state compression DP step to solve it. Also you should know how to quickly calculate LCM. |⭐️⭐️⭐️⭐️|
+
 
 <br><br>
 ### Digit DP
