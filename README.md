@@ -71,6 +71,13 @@
 
 
 <br><br>
+### Partition DP
+| Question                                  | Other Related Tags         |    Supplementary   |  Difficulty  |
+|-------------------------------------------|----------------------------|-------------------------------|-----------|
+| [3473. Sum of K Subarrays With Length at Least M](https://leetcode.com/problems/sum-of-k-subarrays-with-length-at-least-m/description/)  | `null` | Work in progress  |⭐️⭐️⭐️⭐️|
+
+
+<br><br>
 ### State Compression DP
 | Question                                  | Other Related Tags         |    Supplementary   |  Difficulty  |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
@@ -160,6 +167,7 @@ A great technique to understand Z - [Z Algorithm demo](https://personal.utdallas
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
 | [1668. Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/description/)  | `DP`    | Z + DP  |⭐️⭐️⭐️|
 | [3292. Minimum Number of Valid Strings to Form Target II](https://leetcode.com/problems/minimum-number-of-valid-strings-to-form-target-ii/description/)  | `Greedy`    | [Interval covering greedy](#interval-covering)  |⭐️⭐️⭐️⭐️|
+| [3474. Lexicographically Smallest Generated String](https://leetcode.com/problems/lexicographically-smallest-generated-string/description/)  | `Greedy`    | Work in progress  |⭐️⭐️⭐️⭐️⭐️⭐️|
 
 <br><br>
 ### Aho-Corasick
