@@ -111,7 +111,8 @@
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
 | [3382. Maximum Area Rectangle With Point Constraints II](https://leetcode.com/problems/maximum-area-rectangle-with-point-constraints-ii/description/)  | `Hash Table`, `Offline + Enumeration`, `Static 2D Points`    |  The way of using Hash Table is similar to "two sum" |  ⭐️⭐️⭐️⭐️⭐️ |
 | [G. Unusual Entertainment](https://codeforces.com/problemset/problem/1899/G)  | `DFS Order`, `Offline + Differ`, `Static 2D Points` | 1. Using DFS order to quickly check if one node is the child of one tree. <br> 2. Organizing in advance which query operations should be executed for each index position serves as a “bridge” between offline processing and the concept of difference-based methods. |⭐️⭐️⭐️⭐️⭐️⭐️|
-| [3479. Fruits Into Baskets III](https://leetcode.com/problems/fruits-into-baskets-iii/description/)  | `null` |  |⭐️⭐️⭐️⭐️|
+| [3479. Fruits Into Baskets III](https://leetcode.com/problems/fruits-into-baskets-iii/description/)  | `null` | No time for explain, sorry you need to solve by yourself, this time is just question gathering. |⭐️⭐️⭐️⭐️|
+| [3525. Find X Value of Array II](https://leetcode.com/problems/find-x-value-of-array-ii/description/)  | `null` | No time for explain, sorry you need to solve by yourself, this time is just question gathering. |⭐️⭐️⭐️⭐️⭐️⭐️⭐️|
 
 <br><br>
 ## Math
