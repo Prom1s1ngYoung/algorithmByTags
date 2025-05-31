@@ -96,6 +96,12 @@
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
 | [3441. Minimum Cost Good Caption](https://leetcode.com/problems/minimum-cost-good-caption/description/)  | `Math` | Define $f[i][j]$ as the minimum cost let substring from $i$ to end become good when choosing $j$ at $i$. There are two options: <br> 1. Still choose the same character from the previous one, $f[i][j] = f[i + 1][j] + \lvert s[j] - j \lvert$ <br> 2. Choose a different character from the previous one, and do not break the rule that it should have at least 3 consecutive characters. So $f[i][j] = \min_{k=0}^{25} f[i + 3][k] + \lvert s[j] - j \lvert + \lvert s[j + 1] - j \lvert + \lvert s[j + 2] - j \lvert$. Such an option can only chosen when $i <= n - 6$, $n$ is the length of the string, cause you should leave enough positions for constructing a consecutive sub caption.   |⭐️⭐️⭐️⭐️⭐️⭐️|
 
+<br><br>
+### Memoized Backtracking & Memoized DFS
+| Question                                  | Other Related Tags         |    Supplementary   |  Difficulty  |
+|-------------------------------------------|----------------------------|-------------------------------|-----------|
+| [3533. Concatenated Divisibility](https://leetcode.com/problems/concatenated-divisibility/description/)  | `Math` |  This problem requires finding the lexicographically smallest valid combination. To achieve this, we can first sort the array to prioritize lexicographically smaller elements. We then perform a DFS, terminating as soon as we find the first valid combination. Since we do not need to explore the entire DFS space, pruning is possible—once a valid result is found, we immediately return. <br> For memoization, two pieces of state can be used: <br> 1. The combination of selected elements, which can be represented using a bitmask. <br> 2. The current remainder when forming the number. <br> We can use a visited set or array to track previously explored (bitmask, remainder) states and avoid redundant computations. |⭐️⭐️⭐️⭐️⭐️|
+
 
 <br><br>
 ## Data Structure
