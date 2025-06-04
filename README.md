@@ -1,4 +1,4 @@
-# Algorithm By Tags
+c# Algorithm By Tags
 ## Sliding window/Two pointers
 | Question                                  | Other Related Tags         |    Supplementary   |  Difficulty |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
@@ -188,6 +188,10 @@ A great technique to understand Z - [Z Algorithm demo](https://personal.utdallas
 | Question                                  | Other Related Tags         |    Supplementary   | Difficulty |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
 | [3327. Check if DFS Strings Are Palindromes](https://leetcode.com/problems/check-if-dfs-strings-are-palindromes/description/)  | `DFS` | The Main idea is to find an efficient way to check if two strings are equal, so string hash is needed. Try to calculate the pre-order formatted string's hash and the post-order formatted string's hash.  |⭐️⭐️⭐️⭐️⭐️|
+
+<br><br>
+## Binary lifting
+| [3534. Path Existence Queries in a Graph II](https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/description/)  | `Two pointers` | Todo... |⭐️⭐️⭐️⭐️⭐️|
 
 <br><br>
 ## Constructive
