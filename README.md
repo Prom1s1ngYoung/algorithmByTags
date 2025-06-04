@@ -1,4 +1,4 @@
-c# Algorithm By Tags
+# Algorithm By Tags
 ## Sliding window/Two pointers
 | Question                                  | Other Related Tags         |    Supplementary   |  Difficulty |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
@@ -191,7 +191,9 @@ A great technique to understand Z - [Z Algorithm demo](https://personal.utdallas
 
 <br><br>
 ## Binary lifting
-| [3534. Path Existence Queries in a Graph II](https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/description/)  | `Two pointers` | Todo... |⭐️⭐️⭐️⭐️⭐️|
+| Question                                  | Other Related Tags         |    Supplementary   | Difficulty |
+|-------------------------------------------|----------------------------|-------------------------------|-----------|
+| [3534. Path Existence Queries in a Graph II](https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/description/)  | `Two pointers` |  |⭐️⭐️⭐️⭐️⭐️|
 
 <br><br>
 ## Constructive
