@@ -89,7 +89,7 @@
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
 | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)  | null |    |⭐️⭐️⭐️|
 | [3473. Sum of K Subarrays With Length at Least M](https://leetcode.com/problems/sum-of-k-subarrays-with-length-at-least-m/description/)  | `null` | Work in progress  |⭐️⭐️⭐️⭐️|
-| [3538. Merge Operations for Minimum Travel Time](https://leetcode.com/problems/merge-operations-for-minimum-travel-time/description/)  | `Prefix` |    |⭐️⭐️⭐️⭐️⭐️⭐️⭐️|
+| [3538. Merge Operations for Minimum Travel Time](https://leetcode.com/problems/merge-operations-for-minimum-travel-time/description/)  | `Prefix` |  The problem requires merging into exactly m segments, which hints at cutting m segments → classic partitioning setup. <br> The segment cost is additive in nature (sum × sum), perfect for prefix sum acceleration. <br> The goal is global optimality with local decision points, so DP fits well.  |⭐️⭐️⭐️⭐️⭐️⭐️⭐️|
 
 <br><br>
 ### Output Tracking
