@@ -71,13 +71,6 @@
 
 
 <br><br>
-### Partition DP
-| Question                                  | Other Related Tags         |    Supplementary   |  Difficulty  |
-|-------------------------------------------|----------------------------|-------------------------------|-----------|
-| [3473. Sum of K Subarrays With Length at Least M](https://leetcode.com/problems/sum-of-k-subarrays-with-length-at-least-m/description/)  | `null` | Work in progress  |⭐️⭐️⭐️⭐️|
-
-
-<br><br>
 ### State Compression DP
 | Question                                  | Other Related Tags         |    Supplementary   |  Difficulty  |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
@@ -94,7 +87,8 @@
 ### Partitioning DP
 | Question                                  | Other Related Tags         |    Supplementary   |  Difficulty  |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
-| [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)  | null |    |⭐️⭐️⭐️⭐️⭐️⭐️⭐️|
+| [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)  | null |    |⭐️⭐️⭐️|
+| [3473. Sum of K Subarrays With Length at Least M](https://leetcode.com/problems/sum-of-k-subarrays-with-length-at-least-m/description/)  | `null` | Work in progress  |⭐️⭐️⭐️⭐️|
 | [3538. Merge Operations for Minimum Travel Time](https://leetcode.com/problems/merge-operations-for-minimum-travel-time/description/)  | `Prefix` |    |⭐️⭐️⭐️⭐️⭐️⭐️⭐️|
 
 <br><br>
