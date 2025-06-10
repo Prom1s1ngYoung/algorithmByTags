@@ -91,6 +91,13 @@
 | [3348. Smallest Divisible Digit Product II](https://leetcode.com/problems/smallest-divisible-digit-product-ii/description/)  | `Math` | Digit DP is not used to solve this question. However, the intuition is extended from Digit DP. <br> 1. Decomposition into Prime Factors. Assume there is $k$ number of such factors, and the string $num$ has length $n$. So firstly compare $k$ and $n$ to add pre $0$ to the $num$. Why do we need pre $0$, try to think of $num=999$ and $t=2$ such example. <br> 2. Up to here, you should be familiar with $isLimit$, if you don't, please learn the digit DP template. Do classification: <br>  2.1 Still have limits, but the current step is inside the pre $0$, possible to pick up from $0$ to $9$. <br>  2.2 Still have limits, but the current step is outside the pre $0$, the lower should be greater than $0$. <br>  2.3 No limits, you can pick up from $1$ to $9$. <br> 3. Add $visited$ to check if the 'node' has already been visited, there are two states, $memo[i][j]$ means by formatting the elements start from $i$ to end, is it possible to get a product that is divisible by $j$ <br> That's all the intuition you need, maybe considered the rest with code would be better. |⭐️⭐️⭐️⭐️⭐️⭐️⭐️|
 
 <br><br>
+### Partitioning DP
+| Question                                  | Other Related Tags         |    Supplementary   |  Difficulty  |
+|-------------------------------------------|----------------------------|-------------------------------|-----------|
+| [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)  | null |    |⭐️⭐️⭐️⭐️⭐️⭐️⭐️|
+| [3538. Merge Operations for Minimum Travel Time](https://leetcode.com/problems/merge-operations-for-minimum-travel-time/description/)  | `Prefix` |    |⭐️⭐️⭐️⭐️⭐️⭐️⭐️|
+
+<br><br>
 ### Output Tracking
 | Question                                  | Other Related Tags         |    Supplementary   |  Difficulty  |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
