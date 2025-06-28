@@ -71,6 +71,13 @@
 
 
 <br><br>
+### Interval DP
+| Question                                  | Other Related Tags         |    Supplementary   |  Difficulty  |
+|-------------------------------------------|----------------------------|-------------------------------|-----------|
+| [3563. Lexicographically Smallest String After Adjacent Removals](https://leetcode.com/problems/lexicographically-smallest-string-after-adjacent-removals/description/)  | `Linear DP` | Why the outer layer naturally becomes a “keep-or-skip” linear DP? <br> 	1. Lexicographic order is decided from left to right. - The first surviving character fully determines which result is smaller, so every position asks: Will this character stay, or disappear before we ever compare it? <br> 2. Deletion happens only through complete removal of a contiguous block. - If you decide to erase $s[i]$, you must wipe out the whole block that starts at i and is known to be erasable—nothing in between may survive. <br>	3. After either action, what remains is the same kind of sub-problem on a suffix. - Whether you keep $s[i]$ or skip the block, what remains is the same “find the best string from here on” task, making a simple one-dimensional DP sufficient. <br> To support the skip option, we pre-compute—via an interval DP much like the one for palindrome validation—whether each segment $[i, j]$ can be fully erased. The outer DP then consults this memo table: if $[i, j]$ is erasable, skipping jumps directly to $j + 1$; otherwise, we must keep $s[i]$.|⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️|
+
+
+<br><br>
 ### State Compression DP
 | Question                                  | Other Related Tags         |    Supplementary   |  Difficulty  |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
