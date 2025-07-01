@@ -96,7 +96,7 @@
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
 | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)  | `null` |    |⭐️⭐️⭐️|
 | [3473. Sum of K Subarrays With Length at Least M](https://leetcode.com/problems/sum-of-k-subarrays-with-length-at-least-m/description/)  | `null` | Work in progress  |⭐️⭐️⭐️⭐️|
-| [3538. Merge Operations for Minimum Travel Time](https://leetcode.com/problems/merge-operations-for-minimum-travel-time/description/)  | `Prefix` |  The problem requires merging into exactly m segments, which hints at cutting m segments → classic partitioning setup. <br> The segment cost is additive in nature (sum × sum), perfect for prefix sum acceleration. <br> The goal is global optimality with local decision points, so DP fits well.  |⭐️⭐️⭐️⭐️⭐️⭐️⭐️|
+| [3538. Merge Operations for Minimum Travel Time](https://leetcode.com/problems/merge-operations-for-minimum-travel-time/description/)  | `Prefix` |  The problem requires merging into exactly m s, which hints at cutting m segments → classic partitioning setup. <br> The segment cost is additive in nature (sum × sum), perfect for prefix sum acceleration. <br> The goal is global optimality with local decision points, so DP fits well.  |⭐️⭐️⭐️⭐️⭐️⭐️⭐️|
 
 <br><br>
 ### Tree DP
@@ -134,6 +134,7 @@
 | [G. Unusual Entertainment](https://codeforces.com/problemset/problem/1899/G)  | `DFS Order`, `Offline + Differ`, `Static 2D Points` | 1. Using DFS order to quickly check if one node is the child of one tree. <br> 2. Organizing in advance which query operations should be executed for each index position serves as a “bridge” between offline processing and the concept of difference-based methods. |⭐️⭐️⭐️⭐️⭐️⭐️|
 | [3479. Fruits Into Baskets III](https://leetcode.com/problems/fruits-into-baskets-iii/description/)  | `null` | No time for explain, sorry you need to solve by yourself, this time is just question gathering. |⭐️⭐️⭐️⭐️|
 | [3525. Find X Value of Array II](https://leetcode.com/problems/find-x-value-of-array-ii/description/)  | `null` | No time for explain, sorry you need to solve by yourself, this time is just question gathering. |⭐️⭐️⭐️⭐️⭐️⭐️⭐️|
+| [3569. Maximize Count of Distinct Primes After Split](https://leetcode.com/problems/maximize-count-of-distinct-primes-after-split/description/)  | `Lazy Tag` | Treat the contribution into two parts: <br> 1. Baseline - distinct primes in the whole array (no cut involved). <br> 2. Incremental Gain - For every prime appearing ≥ 2 times: let $l = first$ index, $r = last$ index. Any cut position $k ∈ [l + 1, r]$ puts this prime in both halves → +1 gain. Model this as adding +1 to the interval $[l + 1, r]$. <br> Now the problem becomes find Maximizing Gain - Overlay all such intervals and find the maximum overlap count gainMax. Using segement tree to maintain the interval info. |⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️|
 
 <br><br>
 ## Math
