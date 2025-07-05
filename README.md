@@ -97,6 +97,7 @@
 | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)  | `null` |    |⭐️⭐️⭐️|
 | [3473. Sum of K Subarrays With Length at Least M](https://leetcode.com/problems/sum-of-k-subarrays-with-length-at-least-m/description/)  | `null` | Work in progress  |⭐️⭐️⭐️⭐️|
 | [3538. Merge Operations for Minimum Travel Time](https://leetcode.com/problems/merge-operations-for-minimum-travel-time/description/)  | `Prefix` |  The problem requires merging into exactly m s, which hints at cutting m segments → classic partitioning setup. <br> The segment cost is additive in nature (sum × sum), perfect for prefix sum acceleration. <br> The goal is global optimality with local decision points, so DP fits well.  |⭐️⭐️⭐️⭐️⭐️⭐️⭐️|
+| [3578. Count Partitions With Max-Min Difference at Most K](https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k/description/)  | `Monotonous Queue` | Monotonous Queue can be used to maintain the window of the partition range. And all the points inside the range can contribute to the result. |⭐️⭐️⭐️⭐️⭐️⭐️⭐️|
 
 <br><br>
 ### Tree DP
