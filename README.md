@@ -214,6 +214,7 @@ A great technique to understand Z - [Z Algorithm demo](https://personal.utdallas
 | [1483. Kth Ancestor of a Tree Node](https://leetcode.com/problems/kth-ancestor-of-a-tree-node/description/)  | `Tree` | Todo |⭐️⭐️⭐️⭐️|
 | [3534. Path Existence Queries in a Graph II](https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/description/)  | `Two pointers` | Todo |⭐️⭐️⭐️⭐️⭐️⭐️⭐️|
 | [3553. Minimum Weighted Subgraph With the Required Paths II](https://leetcode.com/problems/minimum-weighted-subgraph-with-the-required-paths-ii/description/)  | `Graph` | Todo |⭐️⭐️⭐️⭐️⭐️⭐️⭐️|
+| [3585. Find Weighted Median Node in Tree](https://leetcode.com/problems/find-weighted-median-node-in-tree/description/)  | `LCA` | Todo |⭐️⭐️⭐️⭐️⭐️⭐️⭐️|
 
 
 <br><br>
