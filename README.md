@@ -28,7 +28,10 @@
 
 <br><br>
 ## Graph
-
+### Disjoint Set Union Find
+| Question                                  | Other Related Tags         |    Supplementary   |  Difficulty  |
+|-------------------------------------------|----------------------------|-------------------------------|-----------|
+| [3600. Maximize Spanning Tree Stability with Upgrades](https://leetcode.com/problems/maximize-spanning-tree-stability-with-upgrades/description/)  | `Binary search` | Use a disjoint set to detect cycles and to determine the minimum number of additional connections required to form a spanning tree. |⭐️⭐️⭐️⭐️|
 
 
 <br><br>
