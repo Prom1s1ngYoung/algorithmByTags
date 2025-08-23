@@ -33,6 +33,11 @@
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
 | [3600. Maximize Spanning Tree Stability with Upgrades](https://leetcode.com/problems/maximize-spanning-tree-stability-with-upgrades/description/)  | `Binary search` | Use a disjoint set to detect cycles and to determine the minimum number of additional connections required to form a spanning tree. |⭐️⭐️⭐️⭐️⭐️⭐️⭐️|
 
+### Dijkstra
+| Question                                  | Other Related Tags         |    Supplementary   |  Difficulty  |
+|-------------------------------------------|----------------------------|-------------------------------|-----------|
+| [3594. Minimum Time to Transport All Individuals](https://leetcode.com/problems/minimum-time-to-transport-all-individuals/description/)  | `Bitmask`, `Memorisation` | Haven't actually digested the question, please review this question in the future if you want to reach a contest score higher than 2500 |⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️|
+
 
 <br><br>
 ## Dynamic Programming
