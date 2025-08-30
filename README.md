@@ -188,6 +188,12 @@
 | [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/description/)  | `null`    |  null |⭐️⭐️|
 
 <br><br>
+## Reverse thinking
+| Question                                  | Other Related Tags         |    Supplementary   |  Difficulty |
+|-------------------------------------------|----------------------------|-------------------------------|-----------|
+| [3609. Minimum Moves to Reach Target in Grid](https://leetcode.com/problems/minimum-moves-to-reach-target-in-grid/description/)  | From destination to current position |  null |⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️|
+
+<br><br>
 ## String
 ### KMP
 | Question                                  | Other Related Tags         |    Supplementary   |  Difficulty |
