@@ -192,6 +192,8 @@
 | Question                                  | Other Related Tags         |    Supplementary   |  Difficulty |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
 | [3609. Minimum Moves to Reach Target in Grid](https://leetcode.com/problems/minimum-moves-to-reach-target-in-grid/description/)  | From destination to current position |  `Classification` |⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️|
+| [3614. Process String with Special Operations II](https://leetcode.com/problems/process-string-with-special-operations-ii/description/)  | From end to start |  `Classification` |⭐️⭐️⭐️⭐️⭐️⭐️|
+
 
 <br><br>
 ## String
