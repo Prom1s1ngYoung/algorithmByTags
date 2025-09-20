@@ -90,6 +90,7 @@
 | Question                                  | Other Related Tags         |    Supplementary   |  Difficulty  |
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
 | [3444. Minimum Increments for Target Multiples in an Array](https://leetcode.com/problems/minimum-increments-for-target-multiples-in-an-array/description/)  | `Math` | There are at most only 4 elements inside $target$ array, state compression could be used to solve this problem. By iterating the $nums$ array, for $nums[i]$, consider implementing $n$ times of incrementation for it to become a multiple of some elements inside $target$(Not just one element, it could be multiple). And use a binary bit set to represent the usage condition of $i$ th element in $target$. If already considered the $i$ th element, then set the $i$ th bit from $0$ to $1$. And then follow the state compression DP step to solve it. Also you should know how to quickly calculate LCM. |⭐️⭐️⭐️⭐️|
+| [3615. Longest Palindromic Path in Graph](https://leetcode.com/problems/longest-palindromic-path-in-graph/description/)  | `Interval DP` |  |⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️|
 
 
 <br><br>
