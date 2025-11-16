@@ -115,6 +115,12 @@
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
 | [3562. Maximum Profit from Trading Stocks with Discounts](https://leetcode.com/problems/maximum-profit-from-trading-stocks-with-discounts/description/)  | ‘Knapsack’, `State Machine` |  1. According to Employee 1 is the direct or indirect boss of every employee. Get result that it is a tree like structure. <br>  2. There are two states whether the boss bought the stock. Think of using state machine DP. <br> 3. There is a limitation of the budget. Think of using Knapsack DP.  |⭐️⭐️⭐️⭐️⭐️⭐️⭐️|
 
+<br><br>
+### Sum Over Subsets(SOS) DP
+| Question                                  | Other Related Tags         |    Supplementary   |  Difficulty  |
+|-------------------------------------------|----------------------------|-------------------------------|-----------|
+| [3670. Maximum Product of Two Integers With No Common Bits](https://leetcode.com/problems/maximum-product-of-two-integers-with-no-common-bits/description/)  |  |   |⭐️⭐️⭐️⭐️⭐️|
+
 
 <br><br>
 ### Output Tracking
