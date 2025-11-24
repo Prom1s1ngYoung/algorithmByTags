@@ -38,6 +38,11 @@
 |-------------------------------------------|----------------------------|-------------------------------|-----------|
 | [3594. Minimum Time to Transport All Individuals](https://leetcode.com/problems/minimum-time-to-transport-all-individuals/description/)  | `Bitmask`, `Memorisation` | Haven't actually digested the question, please review this question in the future if you want to reach a contest score higher than 2500 |⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️|
 
+### BFS
+| Question                                  | Other Related Tags         |    Supplementary   |  Difficulty  |
+|-------------------------------------------|----------------------------|-------------------------------|-----------|
+| [3629. Minimum Jumps to Reach End via Prime Teleportation](https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation/description/)  | 'Hash Table' |  |⭐️⭐️⭐️⭐️⭐️|
+
 
 <br><br>
 ## Dynamic Programming
